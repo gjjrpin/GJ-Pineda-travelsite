@@ -1,12 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/destinations.css" />
+    <link rel="stylesheet" href="/css/global.css" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!-- THIS IS THE NAV BAR -->
+    <header>
+      <nav class="nav">
+        <a href="/"><h1 class="nav__title">Travel Site</h1></a>
+        <ul class="nav__menu">
+          <li class="nav__menu-item">
+            <a href="/">Home</a>
+          </li>
+          <li class="nav__menu-item nav__menu-item-active">
+            <a href="/pages/hawaii.html">Hawaii</a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="/pages/iceland.html">Iceland</a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="/pages/greece.html">Greece</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- NAV BAR ENDS HERE -->
+
+    <section class="background background--hawaii">
+      <h1 class="title_color">Hawaii</h1>
+      <div class="container">
+        <!-- THESE ARE THE SCHEDULE CARDS -->
+        <div class="container__card">
+          <ul class="schedule">
+            <li class="schedule__header">Friday</li>
+            <li class="schedule__item">Breakfast</li>
+            <li class="schedule__item">Lunch</li>
+            <li class="schedule__item">Dinner</li>
+            <li class="schedule__item">Snorkeling</li>
+          </ul>
+        </div>
+        <div class="container__card">
+          <ul class="schedule">
+            <li class="schedule__header">Saturday</li>
+            <li class="schedule__item">Breakfast</li>
+            <li class="schedule__item">Lunch</li>
+            <li class="schedule__item">Dinner</li>
+            <li class="schedule__item">Snorkeling</li>
+          </ul>
+        </div>
+        <div class="container__card">
+          <ul class="schedule">
+            <li class="schedule__header">Sunday</li>
+            <li class="schedule__item">Breakfast</li>
+            <li class="schedule__item">Lunch</li>
+            <li class="schedule__item">Dinner</li>
+            <li class="schedule__item">Snorkeling</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- THE SCHEDULE CARDS ENDS HERE -->
+
+    <!-- THIS IS THE FOOTER -->
+    <footer class="footer">
+      <div>
+        <h2 class="footer__heading">Contact</h2>
+        <p class="footer__sub-heading">EMAIL</p>
+        <a href="mailto:info@travelsite.com"> <p>info@travelsite.com</p></a>
+      </div>
+      <div>
+        <h2 class="footer__heading">Hours</h2>
+        <p class="footer__sub-heading">MONDAY - FRIDAY</p>
+        <p>9:00 AM - 5:00 PM</p>
+      </div>
+      <div>
+        <p class="footer__sub-heading">SATURDAY</p>
+        <p>10:00 AM - 4:00 PM</p>
+      </div>
+      <div>
+        <p class="footer__sub-heading">SUNDAY</p>
+        <p>Closed</p>
+      </div>
+      <div>
+        <h2 class="footer__heading">Social</h2>
+        <div>
+          <img
+            src="/assets/Icons/icon-instagram.png"
+            alt="Instagram"
+            class="footer__icon"
+          />
+          <img
+            src="/assets/Icons/icon-facebook.png"
+            alt="Facebook"
+            class="footer__icon"
+          />
+          <img
+            src="/assets/Icons/icon-twitter.png"
+            alt="Twitter"
+            class="footer__icon"
+          />
+        </div>
+      </div>
+    </footer>
+    <!-- THE FOOTER ENDS HERE -->
+  </body>
 </html>

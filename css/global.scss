@@ -1,0 +1,131 @@
+@use "partials/mixins";
+@use "partials/variables" as *;
+
+// Navigation ------------------ //
+.nav {
+  background-color: $nav-bg-color;
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 6rem 0rem 6rem;
+  position: fixed;
+  width: 100%;
+
+  &__menu {
+    display: flex;
+    gap: 1.4rem;
+    list-style-type: none;
+    padding-right: 12rem;
+
+    &-item {
+      font-size: 0.87rem;
+      color: #000000;
+    }
+    &-item:hover {
+      border-bottom: 0.18rem solid;
+      border-color: $nav-selected-color;
+    }
+    &-item-active {
+      border-bottom: 0.18rem solid;
+      border-color: $nav-selected-color;
+    }
+  }
+}
+// Body ------------------ //
+
+body {
+  margin: 0;
+  font-family: Verdana;
+  color: $header-text-color;
+}
+
+button {
+  background-color: $button-bg-color;
+  color: $text-color-white;
+  font-size: 0.9rem;
+  font-weight: 100;
+  border-radius: 3rem;
+  padding: 0.55rem 2.5rem;
+  margin-top: 1rem;
+  border-style: none;
+}
+
+// THIS IS THE CONTAINER CARD ------------//
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  height: 22.4688rem;
+  margin-top: 2rem;
+
+  &__card-form {
+    box-sizing: border-box;
+    width: 31rem;
+    height: 100%;
+    border-radius: 0.4rem;
+    background-color: $nav-bg-color;
+    text-align: center;
+
+    label {
+      display: block;
+    }
+    select,
+    input,
+    textarea {
+      width: 50%;
+    }
+  }
+
+  &__card {
+    box-sizing: border-box;
+    width: 15.5rem;
+    height: 100%;
+    border-radius: 0.4rem;
+    background-color: $nav-bg-color;
+
+    &__image {
+      width: 100%;
+      height: 100%;
+      border-radius: 0.4rem;
+      box-shadow: 0 0.25rem 0.25rem rgba($color: #000000, $alpha: 0.2);
+    }
+
+    &__title {
+      color: $text-color-white;
+      font-size: 1.3rem;
+      position: absolute;
+    }
+  }
+}
+
+// Footer ------------------ //
+
+a {
+  text-decoration: none;
+  color: $header-text-color;
+}
+
+.footer {
+  background-color: $footer-bg-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 2rem 13rem;
+  margin-top: 0;
+  font-size: 0.87rem;
+
+  &__heading {
+    margin: 0rem 0rem 1.6rem 0rem;
+  }
+  &__sub-heading {
+    font-size: 0.6rem;
+    color: $nav-selected-color;
+  }
+  &__icon {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    width: auto;
+    height: auto;
+    margin: 0.9rem 2rem 0.9rem 0rem;
+  }
+}

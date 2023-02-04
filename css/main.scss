@@ -1,0 +1,47 @@
+@use "partials/mixins";
+@use "partials/variables" as *;
+
+// Hero ------------------ //
+
+.hero {
+  background-color: $hero-bg-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.5rem 6rem 4.5rem 6rem;
+
+  &__content {
+    width: 35rem;
+  }
+  &__header {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  &__text {
+    font-size: 0.9rem;
+    font-weight: 100;
+  }
+  &__image {
+    width: 27rem;
+  }
+}
+
+.get__started {
+  height: 95vh;
+
+  &--background {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+    &--column {
+      width: 33.3%;
+    }
+  }
+}
+
+.recommendations-padding {
+  padding: 2rem 5rem 6rem 5rem;
+}
+// THE BODY IS IN GLOBAL ------------------ //

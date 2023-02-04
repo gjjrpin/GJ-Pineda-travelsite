@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/destinations.css" />
     <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/main.css" />
     <title>Document</title>
   </head>
   <body>
@@ -14,13 +15,13 @@
       <nav class="nav">
         <a href="/"><h1 class="nav__title">Travel Site</h1></a>
         <ul class="nav__menu">
-          <li class="nav__menu-item">
+          <li class="nav__menu-item nav__menu-item-active">
             <a href="/">Home</a>
           </li>
           <li class="nav__menu-item">
             <a href="/pages/hawaii.html">Hawaii</a>
           </li>
-          <li class="nav__menu-item nav__menu-item-active">
+          <li class="nav__menu-item">
             <a href="/pages/iceland.html">Iceland</a>
           </li>
           <li class="nav__menu-item">
@@ -31,42 +32,58 @@
     </header>
     <!-- NAV BAR ENDS HERE -->
 
-    <section class="background background--iceland">
-      <h1 class="title_color">Iceland</h1>
+    <section class="get__started">
+      <div class="get__started--background">
+        <div
+          class="background background--hawaii get__started--background--column"
+        ></div>
+        <div
+          class="background background--iceland get__started--background--column"
+        ></div>
+        <div
+          class="background background--greece get__started--background--column"
+        ></div>
+      </div>
+      <h1 class="title_color">Your journey begins here</h1>
       <div class="container">
-        <!-- THESE ARE THE SCHEDULE CARDS -->
-        <div class="container__card">
-          <ul class="schedule">
-            <li class="schedule__header">Friday</li>
-            <li class="schedule__item">Breakfast</li>
-            <li class="schedule__item">Lunch</li>
-            <li class="schedule__item">Dinner</li>
-            <li class="schedule__item">Hiking</li>
-          </ul>
-        </div>
-        <div class="container__card">
-          <ul class="schedule">
-            <li class="schedule__header">Saturday</li>
-            <li class="schedule__item">Breakfast</li>
-            <li class="schedule__item">Lunch</li>
-            <li class="schedule__item">Dinner</li>
-            <li class="schedule__item">Hiking</li>
-          </ul>
-        </div>
-        <div class="container__card">
-          <ul class="schedule">
-            <li class="schedule__header">Sunday</li>
-            <li class="schedule__item">Breakfast</li>
-            <li class="schedule__item">Lunch</li>
-            <li class="schedule__item">Dinner</li>
-            <li class="schedule__item">Hiking</li>
-          </ul>
-        </div>
+        <!-- THIS IS THE FORM SECTION -->
+        <form action="none" class="container__card-form">
+          <h2>Get started</h2>
+          <label for="Destinations">Destinations: </label>
+          <select name="Destinations" id="Destinations">
+            <option value="Hawaii">Hawaii</option>
+            <option value="Hawaii">Iceland</option>
+            <option value="Hawaii">Greece</option></select
+          ><br />
+          <label for="First_name">First name: </label
+          ><input
+            type="text"
+            placeholder="Enter first name"
+            name="First_name"
+            id="First_name"
+          /><br />
+
+          <label for="Last_name">Last name: </label
+          ><input
+            type="text"
+            placeholder="Enter last name"
+            name="Last_name"
+            id="Last_name"
+          /><br />
+
+          <label for="Email">Email: </label
+          ><input type="text" name="Email" id="Email" /><br />
+
+          <label for="Message">Message: </label
+          ><textarea name="Message" id="Message" cols="34" rows="2"></textarea>
+          <br /><button>Submit</button>
+        </form>
+        <!-- THE FORM SECTION ENDS HERE -->
       </div>
     </section>
-    <!-- THE SCHEDULE CARDS ENDS HERE -->
 
     <!-- THIS IS THE FOOTER -->
+
     <footer class="footer">
       <div>
         <h2 class="footer__heading">Contact</h2>
@@ -107,6 +124,7 @@
         </div>
       </div>
     </footer>
+
     <!-- THE FOOTER ENDS HERE -->
   </body>
 </html>

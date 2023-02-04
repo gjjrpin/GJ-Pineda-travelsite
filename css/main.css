@@ -1,0 +1,38 @@
+.hero {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.5rem 6rem 4.5rem 6rem;
+}
+.hero__content {
+  width: 35rem;
+}
+.hero__header {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.hero__text {
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+.hero__image {
+  width: 27rem;
+}
+
+.get__started {
+  height: 95vh;
+}
+.get__started--background {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.get__started--background--column {
+  width: 33.3%;
+}
+
+.recommendations-padding {
+  padding: 2rem 5rem 6rem 5rem;
+}/*# sourceMappingURL=main.css.map */

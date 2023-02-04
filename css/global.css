@@ -1,0 +1,114 @@
+.nav {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 6rem 0rem 6rem;
+  position: fixed;
+  width: 100%;
+}
+.nav__menu {
+  display: flex;
+  gap: 1.4rem;
+  list-style-type: none;
+  padding-right: 12rem;
+}
+.nav__menu-item {
+  font-size: 0.87rem;
+  color: #000000;
+}
+.nav__menu-item:hover {
+  border-bottom: 0.18rem solid;
+  border-color: #db7a4e;
+}
+.nav__menu-item-active {
+  border-bottom: 0.18rem solid;
+  border-color: #db7a4e;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana;
+  color: #335576;
+}
+
+button {
+  background-color: #db7a4e;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 100;
+  border-radius: 3rem;
+  padding: 0.55rem 2.5rem;
+  margin-top: 1rem;
+  border-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  height: 22.4688rem;
+  margin-top: 2rem;
+}
+.container__card-form {
+  box-sizing: border-box;
+  width: 31rem;
+  height: 100%;
+  border-radius: 0.4rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+.container__card-form label {
+  display: block;
+}
+.container__card-form select,
+.container__card-form input,
+.container__card-form textarea {
+  width: 50%;
+}
+.container__card {
+  box-sizing: border-box;
+  width: 15.5rem;
+  height: 100%;
+  border-radius: 0.4rem;
+  background-color: #ffffff;
+}
+.container__card__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.4rem;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+}
+.container__card__title {
+  color: #ffffff;
+  font-size: 1.3rem;
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+  color: #335576;
+}
+
+.footer {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 2rem 13rem;
+  margin-top: 0;
+  font-size: 0.87rem;
+}
+.footer__heading {
+  margin: 0rem 0rem 1.6rem 0rem;
+}
+.footer__sub-heading {
+  font-size: 0.6rem;
+  color: #db7a4e;
+}
+.footer__icon {
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+  width: auto;
+  height: auto;
+  margin: 0.9rem 2rem 0.9rem 0rem;
+}/*# sourceMappingURL=global.css.map */
