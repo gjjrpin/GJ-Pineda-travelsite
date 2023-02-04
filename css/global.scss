@@ -1,6 +1,12 @@
 @use "partials/mixins";
 @use "partials/variables" as *;
 
+body {
+  margin: 0;
+  font-family: Verdana;
+  color: $header-text-color;
+}
+
 // Navigation ------------------ //
 .nav {
   background-color: $nav-bg-color;
@@ -16,15 +22,15 @@
     list-style-type: none;
     padding-right: 12rem;
 
-    &-item {
+    &--item {
       font-size: 0.87rem;
       color: #000000;
     }
-    &-item:hover {
+    &--item:hover {
       border-bottom: 0.18rem solid;
       border-color: $nav-selected-color;
     }
-    &-item-active {
+    &--item--active {
       border-bottom: 0.18rem solid;
       border-color: $nav-selected-color;
     }
@@ -32,13 +38,7 @@
 }
 // Body ------------------ //
 
-body {
-  margin: 0;
-  font-family: Verdana;
-  color: $header-text-color;
-}
-
-button {
+.button-design {
   background-color: $button-bg-color;
   color: $text-color-white;
   font-size: 0.9rem;
@@ -83,7 +83,6 @@ button {
       margin-right: 0.7rem;
     }
   }
-
   &__card-form {
     box-sizing: border-box;
     width: 31rem;

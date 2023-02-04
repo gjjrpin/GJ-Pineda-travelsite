@@ -1,4 +1,4 @@
-.title_color {
+.title-color {
   color: #ffffff;
   font-size: 4rem;
   padding: 7.5rem 5.5rem 1.5rem 5.5rem;
@@ -10,13 +10,13 @@
   background-size: cover;
   height: 95vh;
 }
-.background--hawaii {
+.background__hawaii {
   background-image: url(/assets/Images/hawaii.jpg);
 }
-.background--iceland {
+.background__iceland {
   background-image: url(/assets/Images/iceland.jpg);
 }
-.background--greece {
+.background__greece {
   background-image: url(/assets/Images/greece.jpg);
 }
 

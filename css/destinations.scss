@@ -1,7 +1,7 @@
 @use "partials/mixins";
 @use "partials/variables" as *;
 
-.title_color {
+.title-color {
   color: $text-color-white;
   font-size: 4rem;
   padding: 7.5rem 5.5rem 1.5rem 5.5rem;
@@ -12,13 +12,13 @@
   background-position: center;
   background-size: cover;
   height: 95vh;
-  &--hawaii {
+  &__hawaii {
     background-image: url(/assets/Images/hawaii.jpg);
   }
-  &--iceland {
+  &__iceland {
     background-image: url(/assets/Images/iceland.jpg);
   }
-  &--greece {
+  &__greece {
     background-image: url(/assets/Images/greece.jpg);
   }
 }

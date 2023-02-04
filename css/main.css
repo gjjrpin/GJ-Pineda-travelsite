@@ -20,19 +20,19 @@
   width: 27rem;
 }
 
-.get__started {
+.recommendations-padding {
+  padding: 2rem 5rem 6rem 5rem;
+}
+
+.get-started-page {
   height: 95vh;
 }
-.get__started--background {
+.get-started-page__background {
   display: flex;
   width: 100%;
   position: absolute;
   z-index: -1;
 }
-.get__started--background--column {
+.get-started-page__background--column {
   width: 33.3%;
-}
-
-.recommendations-padding {
-  padding: 2rem 5rem 6rem 5rem;
 }/*# sourceMappingURL=main.css.map */

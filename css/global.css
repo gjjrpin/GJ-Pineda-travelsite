@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  font-family: Verdana;
+  color: #335576;
+}
+
 .nav {
   background-color: #ffffff;
   display: flex;
@@ -12,26 +18,20 @@
   list-style-type: none;
   padding-right: 12rem;
 }
-.nav__menu-item {
+.nav__menu--item {
   font-size: 0.87rem;
   color: #000000;
 }
-.nav__menu-item:hover {
+.nav__menu--item:hover {
   border-bottom: 0.18rem solid;
   border-color: #db7a4e;
 }
-.nav__menu-item-active {
+.nav__menu--item--active {
   border-bottom: 0.18rem solid;
   border-color: #db7a4e;
 }
 
-body {
-  margin: 0;
-  font-family: Verdana;
-  color: #335576;
-}
-
-button {
+.button-design {
   background-color: #db7a4e;
   color: #ffffff;
   font-size: 0.9rem;
