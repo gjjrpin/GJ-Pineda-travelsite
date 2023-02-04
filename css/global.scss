@@ -58,6 +58,32 @@ button {
   height: 22.4688rem;
   margin-top: 2rem;
 
+  &__card-recommendation {
+    box-sizing: border-box;
+    width: 15.5rem;
+    height: 100%;
+    border-radius: 0.4rem;
+    background-color: $nav-bg-color;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 1rem;
+
+    &__image {
+      width: 100%;
+      height: 100%;
+      border-radius: 0.4rem;
+      box-shadow: 0 0.25rem 0.25rem rgba($color: #000000, $alpha: 0.2);
+    }
+
+    &__title {
+      color: $text-color-white;
+      font-size: 1.3rem;
+      position: absolute;
+      margin-right: 0.7rem;
+    }
+  }
+
   &__card-form {
     box-sizing: border-box;
     width: 31rem;
@@ -82,19 +108,6 @@ button {
     height: 100%;
     border-radius: 0.4rem;
     background-color: $nav-bg-color;
-
-    &__image {
-      width: 100%;
-      height: 100%;
-      border-radius: 0.4rem;
-      box-shadow: 0 0.25rem 0.25rem rgba($color: #000000, $alpha: 0.2);
-    }
-
-    &__title {
-      color: $text-color-white;
-      font-size: 1.3rem;
-      position: absolute;
-    }
   }
 }
 

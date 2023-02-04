@@ -49,6 +49,29 @@ button {
   height: 22.4688rem;
   margin-top: 2rem;
 }
+.container__card-recommendation {
+  box-sizing: border-box;
+  width: 15.5rem;
+  height: 100%;
+  border-radius: 0.4rem;
+  background-color: #ffffff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+.container__card-recommendation__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.4rem;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+}
+.container__card-recommendation__title {
+  color: #ffffff;
+  font-size: 1.3rem;
+  position: absolute;
+  margin-right: 0.7rem;
+}
 .container__card-form {
   box-sizing: border-box;
   width: 31rem;
@@ -71,17 +94,6 @@ button {
   height: 100%;
   border-radius: 0.4rem;
   background-color: #ffffff;
-}
-.container__card__image {
-  width: 100%;
-  height: 100%;
-  border-radius: 0.4rem;
-  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
-}
-.container__card__title {
-  color: #ffffff;
-  font-size: 1.3rem;
-  position: absolute;
 }
 
 a {
