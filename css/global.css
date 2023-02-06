@@ -8,6 +8,9 @@ body {
   text-decoration: none;
   color: #335576;
 }
+.link-decoration:hover {
+  transform: scale(1.1);
+}
 
 .nav {
   background-color: #ffffff;
@@ -30,6 +33,7 @@ body {
 .nav__menu--item:hover {
   border-bottom: 0.18rem solid;
   border-color: #db7a4e;
+  transform: scale(1.1);
 }
 .nav__menu--item--active {
   border-bottom: 0.18rem solid;
@@ -45,6 +49,11 @@ body {
   padding: 0.55rem 2.5rem;
   margin-top: 1rem;
   border-style: none;
+}
+.button-design:hover {
+  opacity: 80%;
+  transition: 0.4s;
+  transform: scale(1.1);
 }
 
 .container {
@@ -67,7 +76,7 @@ body {
 }
 .container__card-recommendation:hover {
   opacity: 90%;
-  transition: 0.4s;
+  transition: 0.2s;
   transform: scale(1.02);
 }
 .container__card-recommendation__image {

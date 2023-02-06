@@ -9,6 +9,10 @@ body {
 .link-decoration {
   text-decoration: none;
   color: $header-text-color;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 // Navigation ------------------ //
@@ -29,10 +33,12 @@ body {
     &--item {
       font-size: 0.87rem;
       color: #000000;
-    }
-    &--item:hover {
-      border-bottom: 0.18rem solid;
-      border-color: $nav-selected-color;
+
+      &:hover {
+        border-bottom: 0.18rem solid;
+        border-color: $nav-selected-color;
+        transform: scale(1.1);
+      }
     }
     &--item--active {
       border-bottom: 0.18rem solid;
@@ -51,6 +57,12 @@ body {
   padding: 0.55rem 2.5rem;
   margin-top: 1rem;
   border-style: none;
+
+  &:hover {
+    opacity: 80%;
+    transition: 0.4s;
+    transform: scale(1.1);
+  }
 }
 
 // THIS IS THE CONTAINER CARD ------------//
@@ -75,7 +87,7 @@ body {
 
     &:hover {
       opacity: 90%;
-      transition: 0.4s;
+      transition: 0.2s;
       transform: scale(1.02);
     }
 
