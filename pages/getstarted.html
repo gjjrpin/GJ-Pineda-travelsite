@@ -13,19 +13,21 @@
     <!-- THIS IS THE NAV BAR -->
     <header>
       <nav class="nav">
-        <a href="/"><h1 class="nav__title">Travel Site</h1></a>
+        <a href="/" class="link-decoration"
+          ><h1 class="nav__title">Travel Site</h1></a
+        >
         <ul class="nav__menu">
-          <li class="nav__menu--item nav__menu--item--active">
-            <a href="/">Home</a>
+          <li class="nav__menu--item">
+            <a href="/" class="link-decoration">Home</a>
           </li>
           <li class="nav__menu--item">
-            <a href="/pages/hawaii.html">Hawaii</a>
+            <a href="/pages/hawaii.html" class="link-decoration">Hawaii</a>
           </li>
           <li class="nav__menu--item">
-            <a href="/pages/iceland.html">Iceland</a>
+            <a href="/pages/iceland.html" class="link-decoration">Iceland</a>
           </li>
           <li class="nav__menu--item">
-            <a href="/pages/greece.html">Greece</a>
+            <a href="/pages/greece.html" class="link-decoration">Greece</a>
           </li>
         </ul>
       </nav>
@@ -38,10 +40,10 @@
           class="background background__hawaii get-started-page__background--column"
         ></div>
         <div
-          class="background background__iceland get-started-page__background--column"
+          class="background background__greece get-started-page__background--column"
         ></div>
         <div
-          class="background background__greece get-started-page__background--column"
+          class="background background__iceland get-started-page__background--column"
         ></div>
       </div>
       <h1 class="title-color">Your journey begins here</h1>
@@ -50,33 +52,56 @@
 
         <form action="none" class="container__card-form">
           <h2>Get started</h2>
-          <label for="Destinations">Destinations: </label>
-          <select name="Destinations" id="Destinations">
+          <label for="Destinations" class="container__card-form--label"
+            >Destinations:
+          </label>
+          <select
+            name="Destinations"
+            id="Destinations"
+            class="container__card-form--select"
+          >
             <option value="Hawaii">Hawaii</option>
             <option value="Hawaii">Iceland</option>
             <option value="Hawaii">Greece</option></select
           ><br />
-          <label for="First_name">First name: </label
+          <label for="First_name" class="container__card-form--label"
+            >First name: </label
           ><input
             type="text"
             placeholder="Enter first name"
             name="First_name"
             id="First_name"
+            class="container__card-form--input"
           /><br />
 
-          <label for="Last_name">Last name: </label
+          <label for="Last_name" class="container__card-form--label"
+            >Last name: </label
           ><input
             type="text"
             placeholder="Enter last name"
             name="Last_name"
             id="Last_name"
+            class="container__card-form--input"
           /><br />
 
-          <label for="Email">Email: </label
-          ><input type="text" name="Email" id="Email" /><br />
+          <label for="Email" class="container__card-form--label">Email: </label
+          ><input
+            type="text"
+            placeholder="Enter email"
+            name="Email"
+            id="Email"
+            class="container__card-form--input"
+          /><br />
 
-          <label for="Message">Message: </label
-          ><textarea name="Message" id="Message" cols="34" rows="2"></textarea>
+          <label for="Message" class="container__card-form--label"
+            >Message: </label
+          ><textarea
+            name="Message"
+            id="Message"
+            cols="34"
+            rows="2"
+            class="container__card-form--textarea"
+          ></textarea>
           <br /><button class="button-design">Submit</button>
         </form>
         <!-- THE FORM SECTION ENDS HERE -->
@@ -89,7 +114,7 @@
       <div>
         <h2 class="footer__heading">Contact</h2>
         <p class="footer__sub-heading">EMAIL</p>
-        <a href="mailto:info@travelsite.com" class="mailto-design">
+        <a href="mailto:info@travelsite.com" class="link-decoration">
           <p>info@travelsite.com</p></a
         >
       </div>
@@ -127,7 +152,6 @@
         </div>
       </div>
     </footer>
-
     <!-- THE FOOTER ENDS HERE -->
   </body>
 </html>

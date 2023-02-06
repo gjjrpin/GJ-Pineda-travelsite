@@ -12,19 +12,21 @@
     <!-- THIS IS THE NAV BAR -->
     <header>
       <nav class="nav">
-        <a href="/"><h1 class="nav__title">Travel Site</h1></a>
+        <a href="/" class="link-decoration"
+          ><h1 class="nav__title">Travel Site</h1></a
+        >
         <ul class="nav__menu">
           <li class="nav__menu--item nav__menu--item--active">
-            <a href="/">Home</a>
+            <a href="/" class="link-decoration">Home</a>
           </li>
           <li class="nav__menu--item">
-            <a href="/pages/hawaii.html">Hawaii</a>
+            <a href="/pages/hawaii.html" class="link-decoration">Hawaii</a>
           </li>
           <li class="nav__menu--item">
-            <a href="/pages/iceland.html">Iceland</a>
+            <a href="/pages/iceland.html" class="link-decoration">Iceland</a>
           </li>
           <li class="nav__menu--item">
-            <a href="/pages/greece.html">Greece</a>
+            <a href="/pages/greece.html" class="link-decoration">Greece</a>
           </li>
         </ul>
       </nav>
@@ -42,9 +44,9 @@
             Don't let your dreams be just dreams. Experience the world by
             booking a vacation with us now.
           </p>
-          <a href="/pages/getstarted.html"
-            ><button class="button-design">Get started</button></a
-          >
+          <form action="/pages/getstarted.html">
+            <button class="button-design">Get started</button>
+          </form>
         </div>
 
         <img
@@ -96,7 +98,7 @@
       <div>
         <h2 class="footer__heading">Contact</h2>
         <p class="footer__sub-heading">EMAIL</p>
-        <a href="mailto:info@travelsite.com" class="mailto-design">
+        <a href="mailto:info@travelsite.com" class="link-decoration">
           <p>info@travelsite.com</p></a
         >
       </div>

@@ -4,6 +4,11 @@ body {
   color: #335576;
 }
 
+.link-decoration {
+  text-decoration: none;
+  color: #335576;
+}
+
 .nav {
   background-color: #ffffff;
   display: flex;
@@ -61,7 +66,7 @@ body {
   padding: 1rem;
 }
 .container__card-recommendation:hover {
-  opacity: 85%;
+  opacity: 90%;
   transition: 0.4s;
   transform: scale(1.02);
 }
@@ -85,12 +90,10 @@ body {
   background-color: #ffffff;
   text-align: center;
 }
-.container__card-form label {
+.container__card-form--label {
   display: block;
 }
-.container__card-form select,
-.container__card-form input,
-.container__card-form textarea {
+.container__card-form--select, .container__card-form--input, .container__card-form--textarea {
   width: 50%;
 }
 .container__card {
@@ -99,11 +102,6 @@ body {
   height: 100%;
   border-radius: 0.4rem;
   background-color: #ffffff;
-}
-
-a {
-  text-decoration: none;
-  color: #335576;
 }
 
 .footer {
